@@ -6,89 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      h1 {
-        text-align: center;
+      header {
+        height: 70px;
+        background-color: teal;
       }
-      .first {
+      ul {
+        justify-content: center;
+        gap: 70px;
         display: flex;
-        justify-content: space-around;
-        border: 2px solid black;
+        list-style: none;
       }
-      .second {
+      a {
+        font-size: 24px;
+        color: white;
+        text-decoration: none;
+      }
+      main {
         display: flex;
-        gap: 30px;
+      }
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        background-color: teal;
       }
     </style>
   </head>
   <body>
-    <h1>New-York Times</h1>
-    <div class="first">
-      <h2>Section first</h2>
-      <h2>Section second</h2>
-      <h2>Section third</h2>
-    </div>
-    <div class="second">
+    <header>
+      <ul>
+        <li><a href="">контакти</a></li>
+        <li><a target="_blank" href="./reviews.html">відгуки</a></li>
+        <li><a href="">Новини</a></li>
+      </ul>
+    </header>
+    <main>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore
-        quibusdam dicta nemo velit ratione officiis rem eligendi perferendis
-        eveniet dolor tempore, quis ea nostrum odio eaque soluta sequi
-        cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquam dolore quibusdam dicta nemo velit ratione officiis rem eligendi
-        perferendis eveniet dolor tempore, quis ea nostrum odio eaque soluta
-        sequi cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Aliquam
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab maiores
+        placeat molestias commodi autem consequatur quidem vitae. Natus esse
+        assumenda praesentium fuga tenetur tempore dignissimos in iusto
+        distinctio incidunt?
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore
-        quibusdam dicta nemo velit ratione officiis rem eligendi perferendis
-        eveniet dolor tempore, quis ea nostrum odio eaque soluta sequi
-        cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquam dolore quibusdam dicta nemo velit ratione officiis rem eligendi
-        perferendis eveniet dolor tempore, quis ea nostrum odio eaque soluta
-        sequi cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Aliquam
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab maiores
+        placeat molestias commodi autem consequatur quidem vitae. Natus esse
+        assumenda praesentium fuga tenetur tempore dignissimos in iusto
+        distinctio incidunt?
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore
-        quibusdam dicta nemo velit ratione officiis rem eligendi perferendis
-        eveniet dolor tempore, quis ea nostrum odio eaque soluta sequi
-        cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquam dolore quibusdam dicta nemo velit ratione officiis rem eligendi
-        perferendis eveniet dolor tempore, quis ea nostrum odio eaque soluta
-        sequi cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Aliquam
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab maiores
+        placeat molestias commodi autem consequatur quidem vitae. Natus esse
+        assumenda praesentium fuga tenetur tempore dignissimos in iusto
+        distinctio incidunt?
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore
-        quibusdam dicta nemo velit ratione officiis rem eligendi perferendis
-        eveniet dolor tempore, quis ea nostrum odio eaque soluta sequi
-        cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquam dolore quibusdam dicta nemo velit ratione officiis rem eligendi
-        perferendis eveniet dolor tempore, quis ea nostrum odio eaque soluta
-        sequi cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Aliquam
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab maiores
+        placeat molestias commodi autem consequatur quidem vitae. Natus esse
+        assumenda praesentium fuga tenetur tempore dignissimos in iusto
+        distinctio incidunt?
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore
-        quibusdam dicta nemo velit ratione officiis rem eligendi perferendis
-        eveniet dolor tempore, quis ea nostrum odio eaque soluta sequi
-        cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquam dolore quibusdam dicta nemo velit ratione officiis rem eligendi
-        perferendis eveniet dolor tempore, quis ea nostrum odio eaque soluta
-        sequi cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Aliquam
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore
-        quibusdam dicta nemo velit ratione officiis rem eligendi perferendis
-        eveniet dolor tempore, quis ea nostrum odio eaque soluta sequi
-        cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquam dolore quibusdam dicta nemo velit ratione officiis rem eligendi
-        perferendis eveniet dolor tempore, quis ea nostrum odio eaque soluta
-        sequi cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Aliquam
-      </p>
-    </div>
+    </main>
+    <footer>Footer</footer>
   </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: grid;
+        place-content: center;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: teal;
+        cursor: pointer;
+        transition: 5s;
+      }
+
+      div:hover {
+        transform: scale(3);
+      } 
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <script>
+      let number = 3;
+
+      function ask() {
+        let answer = prompt('Guess number from 1 to 5');
+        if (answer == number) {
+          alert('You are welcome');
+          return;
+        } else if (answer != number) {
+          prompt('Try again from 1 to 5');
+          ask();
+        }
+      }
+
+      ask();
+
+      if (answer == number) {
+        alert('You are welcome');
+      } else {
+        ask();
+      }
+    </script>
+  </body>
+</html>
+ -->
+-->
 
